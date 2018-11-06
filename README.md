@@ -74,10 +74,7 @@ sudo chown -R $USER ./out
 
 </p>
 </details>
-</br>
 
-
-* [Startup Disk Creator](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0) - Creating a bootable Ubuntu USB stick is very simple, especially from Ubuntu itself, and we're going to cover the process in the next few steps.
 
 
 <details> 
@@ -160,6 +157,15 @@ idea.max.content.load.filesize=999999
 </p>
 </details>
 </br>
+
+
+
+### Apps
+
+
+* [Startup Disk Creator](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0) - Creating a bootable Ubuntu USB stick is very simple, especially from Ubuntu itself, and we're going to cover the process in the next few steps.
+
+
 
 ### Install, Setup
 
