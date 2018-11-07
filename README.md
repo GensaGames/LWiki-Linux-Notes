@@ -294,9 +294,12 @@ touch ~/Templates/Empty\ Document
 <summary> Intellij Idea (Community) </summary>
 <p> 
    
+   
 ```
+wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scripts/Intellij-Setup.sh"; sudo ./Intellij-Setup.sh;
 
 ```
 
 </p>
 </details>
+</br>
