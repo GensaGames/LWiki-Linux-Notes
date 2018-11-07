@@ -296,7 +296,7 @@ touch ~/Templates/Empty\ Document
    
    
 ```
-wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scripts/Intellij-Setup.sh"; sudo ./Intellij-Setup.sh;
+wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scripts/Intellij-Setup.sh"; sudo chmod 777 Intellij-Setup.sh; sudo ./Intellij-Setup.sh; 
 
 ```
 
