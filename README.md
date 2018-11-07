@@ -159,7 +159,7 @@ idea.max.content.load.filesize=999999
 
 
 <details> 
-<summary> IntelliJ. Apt Autoclean and Clean.</summary>
+<summary> Apt Autoclean and Clean.</summary>
 <p> 
 
 
