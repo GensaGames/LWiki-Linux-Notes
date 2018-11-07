@@ -156,6 +156,19 @@ idea.max.content.load.filesize=999999
 
 </p>
 </details>
+
+
+<details> 
+<summary> IntelliJ. Apt Autoclean and Clean.</summary>
+<p> 
+
+
+```
+sudo apt-get update; sudo apt-get autoremove; sudo apt-get autoclean; sudo apt-get clean;
+```
+
+</p>
+</details>
 </br>
 
 
