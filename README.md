@@ -275,3 +275,15 @@ touch ~/Templates/Empty\ Document
 
 </p>
 </details>
+
+
+<details> 
+<summary> Intellij Idea (Community) </summary>
+<p> 
+   
+```
+
+```
+
+</p>
+</details>
