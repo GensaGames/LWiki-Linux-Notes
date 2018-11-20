@@ -306,4 +306,17 @@ wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scr
 
 </p>
 </details>
+
+<details> 
+<summary> VirtualBox </summary>
+<p> 
+   
+   
+```
+sudo apt install virtualbox
+
+```
+
+</p>
+</details>
 </br>
