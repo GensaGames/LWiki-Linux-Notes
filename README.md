@@ -192,7 +192,9 @@ sudo apt-get update; sudo apt-get autoremove; sudo apt-get autoclean; sudo apt-g
 <p> 
    
 ```
-wget https://repo.skype.com/latest/skypeforlinux-64.deb; sudo dpkg -i skypeforlinux-64.deb; sudo apt-get update; sudo snap install slack --classic; 
+wget https://repo.skype.com/latest/skypeforlinux-64.deb; \
+sudo dpkg -i skypeforlinux-64.deb; sudo apt-get update; \
+sudo snap install slack --classic; 
 ```
 
 </p>
@@ -204,7 +206,9 @@ wget https://repo.skype.com/latest/skypeforlinux-64.deb; sudo dpkg -i skypeforli
 <p> 
    
 ```
-sudo apt-get update; sudo apt install firefox; sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; sudo dpkg -i google-chrome-stable_current_amd64.deb; 
+sudo apt-get update; sudo apt install firefox; \
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; \
+sudo dpkg -i google-chrome-stable_current_amd64.deb; 
 ```
 
 </p>
@@ -215,7 +219,9 @@ sudo apt-get update; sudo apt install firefox; sudo wget https://dl.google.com/l
 <p> 
    
 ```
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -; sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"; sudo apt-get update; sudo apt-get install sublime-text;
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -; \
+sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"; \
+sudo apt-get update; sudo apt-get install sublime-text;
 ```
 
 </p>
@@ -227,7 +233,12 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 <p> 
    
 ```
-sudo apt-get update; sudo apt install default-jre; sudo apt install default-jdk; sudo apt install openjdk-8-jdk; sudo update-alternatives --config java; sudo update-alternatives --config javac; sudo update-alternatives --config javadoc; sudo update-alternatives --config javap;
+sudo apt-get update; sudo apt install default-jdk; \
+sudo apt install openjdk-8-jdk; \
+sudo update-alternatives --config java; \
+sudo update-alternatives --config javac; \
+sudo update-alternatives --config javadoc; \
+sudo update-alternatives --config javap;
 ```
 
 </p>
@@ -239,7 +250,9 @@ sudo apt-get update; sudo apt install default-jre; sudo apt install default-jdk;
 <p> 
    
 ```
-sudo apt update; sudo apt install git; git config --global user.name "GensaGames"; git config --global user.email "GensaGames@domain.com";
+sudo apt update; sudo apt install git; \
+git config --global user.name "GensaGames"; \
+git config --global user.email "GensaGames@domain.com";
 ```
 
 </p>
@@ -251,7 +264,11 @@ sudo apt update; sudo apt install git; git config --global user.name "GensaGames
 <p> 
    
 ```
-sudo apt-get update; sudo apt-get install python3.6; sudo apt-get install python3-distutils; sudo apt install python3-testresources; wget https://bootstrap.pypa.io/get-pip.py; sudo python3 get-pip.py; 
+sudo apt-get update; sudo apt-get install python3.6; \
+sudo apt-get install python3-distutils; \
+sudo apt install python3-testresources; \
+wget https://bootstrap.pypa.io/get-pip.py; \
+sudo python3 get-pip.py; 
 ```
 
 </p>
@@ -263,7 +280,9 @@ sudo apt-get update; sudo apt-get install python3.6; sudo apt-get install python
 <p> 
    
 ```
-sudo apt update; sudo apt install python-minimal; wget https://bootstrap.pypa.io/get-pip.py; sudo python get-pip.py; 
+sudo apt update; sudo apt install python-minimal; \
+wget https://bootstrap.pypa.io/get-pip.py; \
+sudo python get-pip.py; 
 ```
 
 </p>
@@ -300,7 +319,9 @@ touch ~/Templates/Empty\ Document
    
    
 ```
-wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scripts/Intellij-Setup.sh"; sudo chmod 777 Intellij-Setup.sh; sudo ./Intellij-Setup.sh; 
+wget "https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/scripts/Intellij-Setup.sh"; \
+sudo chmod 777 Intellij-Setup.sh; \
+sudo ./Intellij-Setup.sh; 
 
 ```
 
