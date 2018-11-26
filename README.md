@@ -164,7 +164,10 @@ idea.max.content.load.filesize=999999
 
 
 ```
-sudo apt-get update; sudo apt-get autoremove; sudo apt-get autoclean; sudo apt-get clean;
+sudo apt-get update; \
+sudo apt-get autoremove; \
+sudo apt-get autoclean; \
+sudo apt-get clean;
 ```
 
 </p>
