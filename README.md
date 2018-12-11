@@ -332,6 +332,21 @@ sudo ./Intellij-Setup.sh;
 </details>
 
 <details> 
+<summary> Android Studio </summary>
+<p> 
+   
+   
+```
+wget "https://dl.google.com/dl/android/studio/ide-zips/3.2.1.0/android-studio-ide-181.5056338-linux.zip"; 
+
+```
+
+</p>
+</details>
+
+
+
+<details> 
 <summary> VirtualBox </summary>
 <p> 
    
