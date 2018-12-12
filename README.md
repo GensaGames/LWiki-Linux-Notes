@@ -269,10 +269,11 @@ git config --global user.email "GensaGames@domain.com";
 ```
 sudo apt-get update; sudo apt-get install python3.6; \
 sudo apt-get install python3-distutils; \
+sudo apt-get install python3-tk; \
 sudo apt install python3-testresources; \
 wget https://bootstrap.pypa.io/get-pip.py; \
 sudo python3 get-pip.py; \
-sudo pip3 install pipenv;
+sudo pip3 install pipenv; 
 ```
 
 </p>
@@ -286,6 +287,7 @@ sudo pip3 install pipenv;
 ```
 sudo apt update; sudo apt install python-minimal; \
 wget https://bootstrap.pypa.io/get-pip.py; \
+sudo apt-get install python-tk; \
 sudo python get-pip.py;  \
 sudo pip install pipenv;
 ```
