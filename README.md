@@ -271,7 +271,8 @@ sudo apt-get update; sudo apt-get install python3.6; \
 sudo apt-get install python3-distutils; \
 sudo apt install python3-testresources; \
 wget https://bootstrap.pypa.io/get-pip.py; \
-sudo python3 get-pip.py; 
+sudo python3 get-pip.py; \
+sudo pip3 install pipenv;
 ```
 
 </p>
@@ -285,7 +286,8 @@ sudo python3 get-pip.py;
 ```
 sudo apt update; sudo apt install python-minimal; \
 wget https://bootstrap.pypa.io/get-pip.py; \
-sudo python get-pip.py; 
+sudo python get-pip.py;  \
+sudo pip install pipenv;
 ```
 
 </p>
