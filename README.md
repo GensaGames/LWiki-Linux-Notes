@@ -321,6 +321,20 @@ touch ~/Templates/Empty\ Document
 
 
 <details> 
+<summary> GIMP </summary>
+<p> 
+   
+```
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp; \
+sudo apt-get update; sudo apt-get install gimp;
+```
+
+</p>
+</details>
+
+
+
+<details> 
 <summary> Intellij Idea (Community) </summary>
 <p> 
    
