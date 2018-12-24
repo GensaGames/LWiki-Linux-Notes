@@ -159,7 +159,7 @@ idea.max.content.load.filesize=999999
 
 
 <details> 
-<summary> Apt Autoclean and Clean.</summary>
+<summary> Apt Autoclean and Clean </summary>
 <p> 
 
 
@@ -168,6 +168,24 @@ sudo apt-get update; \
 sudo apt-get autoremove; \
 sudo apt-get autoclean; \
 sudo apt-get clean;
+```
+
+</p>
+</details>
+
+</p>
+</details>
+
+
+<details> 
+<summary> Minicom </summary>
+<p> 
+
+Connection Serial Port to USB
+
+```
+dmesg | grep tty; \
+sudo minicom -s; 
 ```
 
 </p>
