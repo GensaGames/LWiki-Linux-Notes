@@ -41,17 +41,6 @@ sudo apt-get clean;
 
 
 
-### Apps
-
-
-* [Startup Disk Creator](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0) - Creating a bootable Ubuntu USB stick is very simple, especially from Ubuntu itself, and we're going to cover the process in the next few steps.
-
-
-
-* [Docker](https://docs.docker.com/) - Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers. Containers are not new, but their use for easily deploying applications is. [Installation](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1) for a Ubuntu.
-
-
-
 ### Install, Setup
 
 
