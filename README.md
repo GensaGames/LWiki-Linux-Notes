@@ -2,6 +2,9 @@
 
 
 
+
+
+</br>
 ### Configuration
 
 
@@ -38,9 +41,17 @@ sudo apt-get clean;
 
 </p>
 </details>
+</br>
+</br>
 
 
 
+<p align="center">
+<img src="https://coggle-downloads-production.s3.eu-west-1.amazonaws.com/217fcb67d6552e2d63e332ed2fc6bcc77f8466c5d4150a389126ceccf3ed1838/Linux_Commands.png?AWSAccessKeyId=ASIA4YTCGXFHD56ZGW64&Expires=1552241879&Signature=Fkf6H8vTAT1zYuLn6fpHnU04fZk%3D&x-amz-security-token=FQoGZXIvYXdzENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGGszEl1NRsii4p8zyLwAbLTimhhsWFS%2FH8Jlk8N5Cz27STAo0Hh8D9kTGE5UGLBBJM2S%2BfIIY2ssEFuKabAB3QvHrmjIv8CyaWGbuegGodSxFNrR%2BkbkNdk0faU0qmBXLSm7odlz8MzEn2sNNlx6D16mxr59mNzFnbMNWc2XOzSidXocDCDONcl0IWYuSsx4027NaQpuBrbFpHnF3Ku4U6Sw%2FaZeTN4PufiIYZngm1edurg%2BTJlojuDJgl9lFAuyA%2FbSKfnMAIZ24bDqa%2BQnjQnmwCQbJ8vcKQlAu%2BrsgAXiuTbT5mdsXcZh9%2B0Q8%2F6SOyiNuuCDfmh7zYyghNOjCi14ZPkBQ%3D%3D" width="700" height="400" /> 
+</p>
+
+
+</br>
 ### Install, Setup
 
 
