@@ -5,6 +5,7 @@
 
 
 </br>
+
 ### Configuration
 
 
@@ -23,9 +24,6 @@ sudo sysctl --system
 
 </p>
 </details>
-
-
-
 
 <details> 
 <summary> Apt Autoclean and Clean </summary>
@@ -52,6 +50,7 @@ sudo apt-get clean;
 
 
 </br>
+
 ### Install, Setup
 
 
@@ -112,7 +111,6 @@ sudo update-alternatives --config javap;
 </p>
 </details>
 
- 
 <details> 
 <summary> Git, Global config </summary>
 <p> 
@@ -125,7 +123,6 @@ git config --global user.email "GensaGames@domain.com";
 
 </p>
 </details>
-
 
 <details> 
 <summary> Py, Py Dependencies and PIP </summary>
@@ -160,7 +157,6 @@ sudo pip install pipenv;
 </p>
 </details>
 
-
 <details> 
 <summary> Tweak </summary>
 <p> 
@@ -168,10 +164,8 @@ sudo pip install pipenv;
 ```
 sudo apt-get install gnome-tweak-tool; 
 ```
-
 </p>
 </details>
-
 
 <details> 
 <summary> Context Option, Empty Document </summary>
@@ -183,7 +177,6 @@ touch ~/Templates/Empty\ Document
 
 </p>
 </details>
-
 
 <details> 
 <summary> GIMP </summary>
@@ -197,8 +190,6 @@ sudo apt-get update; sudo apt-get install gimp;
 </p>
 </details>
 
-
-
 <details> 
 <summary> Intellij Idea (Community) </summary>
 <p> 
@@ -210,7 +201,6 @@ sudo chmod 777 Intellij-Setup.sh; \
 sudo ./Intellij-Setup.sh; 
 
 ```
-
 </p>
 </details>
 
@@ -223,11 +213,8 @@ sudo ./Intellij-Setup.sh;
 wget "https://dl.google.com/dl/android/studio/ide-zips/3.2.1.0/android-studio-ide-181.5056338-linux.zip"; 
 
 ```
-
 </p>
 </details>
-
-
 
 <details> 
 <summary> VirtualBox </summary>
@@ -238,7 +225,6 @@ wget "https://dl.google.com/dl/android/studio/ide-zips/3.2.1.0/android-studio-id
 sudo apt install virtualbox
 
 ```
-
 </p>
 </details>
 </br>
