@@ -4,6 +4,16 @@
 
 
 
+
+
+### Simple Commands MM
+<p align="center">
+<img src="https://coggle-downloads-production.s3.eu-west-1.amazonaws.com/217fcb67d6552e2d63e332ed2fc6bcc77f8466c5d4150a389126ceccf3ed1838/Linux_Commands.png?AWSAccessKeyId=ASIA4YTCGXFHD56ZGW64&Expires=1552241879&Signature=Fkf6H8vTAT1zYuLn6fpHnU04fZk%3D&x-amz-security-token=FQoGZXIvYXdzENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGGszEl1NRsii4p8zyLwAbLTimhhsWFS%2FH8Jlk8N5Cz27STAo0Hh8D9kTGE5UGLBBJM2S%2BfIIY2ssEFuKabAB3QvHrmjIv8CyaWGbuegGodSxFNrR%2BkbkNdk0faU0qmBXLSm7odlz8MzEn2sNNlx6D16mxr59mNzFnbMNWc2XOzSidXocDCDONcl0IWYuSsx4027NaQpuBrbFpHnF3Ku4U6Sw%2FaZeTN4PufiIYZngm1edurg%2BTJlojuDJgl9lFAuyA%2FbSKfnMAIZ24bDqa%2BQnjQnmwCQbJ8vcKQlAu%2BrsgAXiuTbT5mdsXcZh9%2B0Q8%2F6SOyiNuuCDfmh7zYyghNOjCi14ZPkBQ%3D%3D" width="700" height="400" /> 
+</p>
+
+
+
+
 </br>
 
 ### Configuration
@@ -15,13 +25,11 @@
 
 Inotify requires a "watch handle" to be set for each directory in the project. Unfortunately, the default limit of watch handles may not be enough for reasonably sized projects, and reaching the limit will force IntelliJ platform to fall back to recursive scans of directory trees.
 
-
 ```
 wget  -O /etc/sysctl.d/60-jetbrains.conf "https://gist.githubusercontent.com/bittner/c7d1d49fe0c9af907f24/raw/e2448528477ca3508ad480bea52d3dad54a58f10/60-jetbrains.conf"
 
 sudo sysctl --system
 ```
-
 </p>
 </details>
 
@@ -29,24 +37,17 @@ sudo sysctl --system
 <summary> Apt Autoclean and Clean </summary>
 <p> 
 
-
 ```
 sudo apt-get update; \
 sudo apt-get autoremove; \
 sudo apt-get autoclean; \
 sudo apt-get clean;
 ```
-
 </p>
 </details>
 </br>
-</br>
 
 
-
-<p align="center">
-<img src="https://coggle-downloads-production.s3.eu-west-1.amazonaws.com/217fcb67d6552e2d63e332ed2fc6bcc77f8466c5d4150a389126ceccf3ed1838/Linux_Commands.png?AWSAccessKeyId=ASIA4YTCGXFHD56ZGW64&Expires=1552241879&Signature=Fkf6H8vTAT1zYuLn6fpHnU04fZk%3D&x-amz-security-token=FQoGZXIvYXdzENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGGszEl1NRsii4p8zyLwAbLTimhhsWFS%2FH8Jlk8N5Cz27STAo0Hh8D9kTGE5UGLBBJM2S%2BfIIY2ssEFuKabAB3QvHrmjIv8CyaWGbuegGodSxFNrR%2BkbkNdk0faU0qmBXLSm7odlz8MzEn2sNNlx6D16mxr59mNzFnbMNWc2XOzSidXocDCDONcl0IWYuSsx4027NaQpuBrbFpHnF3Ku4U6Sw%2FaZeTN4PufiIYZngm1edurg%2BTJlojuDJgl9lFAuyA%2FbSKfnMAIZ24bDqa%2BQnjQnmwCQbJ8vcKQlAu%2BrsgAXiuTbT5mdsXcZh9%2B0Q8%2F6SOyiNuuCDfmh7zYyghNOjCi14ZPkBQ%3D%3D" width="700" height="400" /> 
-</p>
 
 
 </br>
