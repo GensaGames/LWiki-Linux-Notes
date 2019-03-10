@@ -2,125 +2,11 @@
 
 
 
-### Basics
-
-* [Commands](https://linoxide.com/linux-how-to/linux-commands-brief-outline-examples/) - This article will help you to get familiarized with all the most common Linux commands and their usages. These commands are divided into 15 sections based on their functionalities. Below some examples.
+### Configuration
 
 
 <details> 
-<summary> List/Find Proccess </summary>
-<p> 
-
-```
-sudo ps -ef
-```
-`ps` - displays processes for the current shell. `-e` - display every active process on a Linux. `-f`- to perform a full-format listing.
-
-```
-sudo lsof -t -i:8000
-```
-`lsof` - list of files(also used for to list related processes). `-t` - show only process ID. `-i` - show only internet connections related process (port in our case). 
-
-</p>
-</details>
-
-
-<details> 
-<summary> Killing Process </summary>
-<p> 
-   
-```
-# Kill a process by PID
-sudo kill <SIG> <PID>
-
-# Kill a process by name
-sudo killall <name>
-```
-   
-Possible signals(SIG) for killing.
-SIGHUP 1 SIGINT 2  SIGKILL 9, etc. 
-
-</p>
-</details>
-
-
-<details> 
-<summary> Change Mode, Access </summary>
-<p> 
-
-For the directories only. For the most cases. 
-```
-find <folder> -type d -exec sudo chmod 755 {} \;
-```
-
-Only if you understand, what you are doing.
-```
-sudo chmod 755 -R <folder>
-```
-
-</p>
-</details>
-
-
-<details> 
-<summary> Change User Mode </summary>
-<p> 
-
-sudo chown <flags> <user-to> <dir>
-
-```
-sudo chown -R $USER ./out
-```
-
-</p>
-</details>
-
-
-
-<details> 
-<summary> Move(Mv) Command </summary>
-<p> 
-
-
-Mv command main options.`mv -f`	force move by overwriting destination file without prompt. `mv -i`	interactive prompt before overwrite. `mv -u`	update - move when source is newer than destination. `mv -v`	verbose - print source and destination files
-
-
-Move main.c def.h files to /home/usr/rapid/ directory
-
-```
-mv main.c def.h /home/usr/rapid/
-```
-
-Move all C files in current directory to subdirectory bak
-
-```
-mv *.c bak
-```
-
-Move all files in subdirectory bak to current directory
-
-```
-mv bak/* .
-```
-
-Rename file main.c to main.bak
-
-```
-mv main.c main.bak
-```
-
-Rename directory bak to bak2:
-
-```
-mv bak bak2
-```
-
-</p>
-</details>
-
-
-<details> 
-<summary> Inotify Watches Limit. IntelliJ </summary>
+<summary> IntelliJ Inotify Watches Limit </summary>
 <p> 
 
 Inotify requires a "watch handle" to be set for each directory in the project. Unfortunately, the default limit of watch handles may not be enough for reasonably sized projects, and reaching the limit will force IntelliJ platform to fall back to recursive scans of directory trees.
@@ -136,26 +22,6 @@ sudo sysctl --system
 </details>
 
 
-<details> 
-<summary> IntelliJ. Memmory setting.</summary>
-<p> 
-
-`idea.vmoptions` and `idea64.vmoptions`
-
-```
--Xms748m
--Xmx748m
-```
-
-`idea.properties`
-
-```
-idea.max.intellisense.filesize=999999
-idea.max.content.load.filesize=999999
-```
-
-</p>
-</details>
 
 
 <details> 
@@ -172,25 +38,6 @@ sudo apt-get clean;
 
 </p>
 </details>
-
-</p>
-</details>
-
-
-<details> 
-<summary> Minicom </summary>
-<p> 
-
-Connection Serial Port to USB
-
-```
-dmesg | grep tty; \
-sudo minicom -s; 
-```
-
-</p>
-</details>
-</br>
 
 
 
