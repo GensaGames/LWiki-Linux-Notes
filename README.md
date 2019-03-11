@@ -64,7 +64,7 @@ sudo update-alternatives --config javap;
 
 ### Applications
 <p align="center">
-<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Apps.png" width="700" height="350" />
+<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Apps.png" width="750" height="350" />
 </p>
 </br>
 
