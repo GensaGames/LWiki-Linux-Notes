@@ -228,4 +228,18 @@ sudo apt install virtualbox
 ```
 </p>
 </details>
+
+<details> 
+<summary> Ubuntu Cleaner </summary>
+<p> 
+   
+   
+```
+sudo add-apt-repository ppa:gerardpuig/ppa; \ 
+sudo apt-get update; \
+sudo apt-get install ubuntu-cleaner;
+
+```
+</p>
+</details>
 </br>
