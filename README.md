@@ -4,21 +4,6 @@
 
 
 
-
-
-### Commands
-<p align="center">
-<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Commands.png" width="600" height="350" />
-</p>
-</br>
-
-### Applications
-<p align="center">
-<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Apps.png" width="600" height="350" />
-</p>
-</br>
-
-
 ### Configuration
 
 
@@ -48,15 +33,56 @@ sudo apt-get clean;
 ```
 </p>
 </details>
+
+<details> 
+<summary> Context Option, Empty Document </summary>
+<p> 
+   
+```
+touch ~/Templates/Empty\ Document
+```
+
+</p>
+</details>
+
+<details> 
+<summary> Java Alternatives </summary>
+<p> 
+
+```
+sudo update-alternatives --config java; \
+sudo update-alternatives --config javac; \
+sudo update-alternatives --config javadoc; \
+sudo update-alternatives --config javap;
+```
+</p>
+</details>
 </br>
 
 
 
 
+### Applications
+<p align="center">
+<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Apps.png" width="600" height="350" />
+</p>
 </br>
+
+
+
+
+### Commands
+<p align="center">
+<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Commands.png" width="600" height="350" />
+</p>
+</br>
+
+
+
+
+
 
 ### Install, Setup
-
 
 <details> 
 <summary> Skype, Slack </summary>
@@ -100,16 +126,12 @@ sudo apt-get update; sudo apt-get install sublime-text;
 
 
 <details> 
-<summary> Java Default, Java 8, Update Alternatives </summary>
+<summary> Java Default, Java 8 </summary>
 <p> 
    
 ```
 sudo apt-get update; sudo apt install default-jdk; \
-sudo apt install openjdk-8-jdk; \
-sudo update-alternatives --config java; \
-sudo update-alternatives --config javac; \
-sudo update-alternatives --config javadoc; \
-sudo update-alternatives --config javap;
+sudo apt install openjdk-8-jdk;
 ```
 
 </p>
@@ -168,17 +190,6 @@ sudo pip install pipenv;
 ```
 sudo apt-get install gnome-tweak-tool; 
 ```
-</p>
-</details>
-
-<details> 
-<summary> Context Option, Empty Document </summary>
-<p> 
-   
-```
-touch ~/Templates/Empty\ Document
-```
-
 </p>
 </details>
 
