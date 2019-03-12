@@ -73,7 +73,7 @@ sudo update-alternatives --config javap;
 
 ### Commands
 <p align="center">
-<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Commands.png" width="850" height="500" />
+<img src="https://raw.githubusercontent.com/GensaGames/LWiki-Linux-Helper/master/images/Linux_Commands.png" width="880" height="580" />
 </p>
 </br>
 
